@@ -67,5 +67,4 @@ func connectDatabase(){
 }
 
 func migration(){
-	DB.AutoMigrate(&User{})
-}
+	
